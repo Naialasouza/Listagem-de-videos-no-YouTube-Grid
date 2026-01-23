@@ -1,0 +1,458 @@
+* {
+    font-family: "Roboto";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+header {
+    height: 8%;
+    width: 1396px;
+    display: flex;
+    gap: 5px;
+}
+
+.menu img {
+    margin-left: 20px;
+    margin-top: 15px;
+    height: 20px;
+}
+
+.menu {
+    display: flex;
+}
+
+.barra {
+    margin-left: 350px;
+    margin-top: 8px;
+}
+
+.perfil {
+    display: flex;
+    margin-left: 330px;
+    margin-top: 5px;
+}
+
+.perfil img {
+    width: 25px;
+    margin: 6px;
+}
+
+.foto img {
+    border-radius: 50%;
+    width: 32px;
+    height: 35px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar {
+    width: 17%;
+    height: 648px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.home-1 {
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.home-2 {
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.home-3 {
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.home-4 {
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.home-5 {
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.home-6 {
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.home-7 {
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.home-8 {
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.home-9 {
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.home-10 {
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.layout {
+    background-color: #FAFAFA;
+    width: 83%;
+    display: grid;
+
+    grid-template: repeat(3, 282px) / repeat(4, 262px);
+
+    gap: 25px 20px;
+    padding: 20px;
+
+}
+
+.textoSide {
+    font-family: "Roboto";
+}
+
+.side-1 {
+    margin-top: 30px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.side-2 {
+    margin-top: 26px;
+    margin-left: 15px;
+}
+
+.side-3 {
+    margin-top: 28px;
+    margin-left: 15px;
+}
+
+.side-4 {
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.side-5 {
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.side-6 {
+    margin-top: 28px;
+    margin-left: 15px;
+}
+
+.side-7 {
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.side-8 {
+    margin-top: 28px;
+    margin-left: 15px;
+}
+
+.side-9 {
+    margin-top: 28px;
+    margin-left: 15px;
+}
+
+.side-10 {
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+
+/* Parte principal*/
+.principal {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+
+
+.video-1 {
+    height: 200px;
+    display: grid;
+}
+
+.foto-principal {
+    width: 220px;
+    height: 140px;
+    display: grid;
+    justify-self: center;
+}
+
+.avatar {
+    margin-left: 18px;
+    margin-top: 10px;
+    width: 35px;
+}
+
+.avatar-1 {
+    margin-left: 5px;
+    margin-top: 10px;
+    width: 35px;
+}
+
+.avatar-2 {
+    margin-left: 5px;
+    margin-top: 10px;
+    width: 35px;
+}
+
+.video-1 h4 {
+    margin-top: -35px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+.video-1 p {
+    margin-left: 60px;
+    margin-top: 5px;
+    font-size: x-small;
+    color: gray;
+}
+
+.video-2 {
+    height: 200px;
+    display: grid;
+    margin-top: 30px;
+}
+
+.video-2 h4 {
+    margin-top: -35px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+.video-2 p {
+    margin-left: 60px;
+    margin-top: 5px;
+    font-size: x-small;
+    color: gray;
+}
+
+.video-3 {
+    height: 200px;
+    display: grid;
+    margin-top: 30px;
+}
+
+.video-3 h4 {
+    margin-top: -35px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    font-size: small;
+    word-break: break-all;
+}
+
+.video-3 p {
+    margin-left: 60px;
+    margin-top: 5px;
+    font-size: x-small;
+    color: gray;
+}
+
+.video-4 {
+    height: 200px;
+    display: grid;
+    margin-top: -1px;
+}
+
+.video-4 h4 {
+    margin-top: -35px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+.video-4 p {
+    margin-left: 60px;
+    margin-top: 5px;
+    font-size: x-small;
+    color: gray;
+}
+
+.video-5 {
+    height: 200px;
+    display: grid;
+    margin-top: 30px;
+}
+
+.video-5 h4 {
+    margin-top: -35px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    font-size: small;
+    word-break: break-all;
+}
+
+.video-5 p {
+    margin-left: 60px;
+    margin-top: 5px;
+    font-size: x-small;
+    color: gray;
+}
+
+.video-6 {
+    height: 200px;
+    display: grid;
+    margin-top: 30px;
+    word-break: break-all;
+}
+
+.video-6 h4 {
+    margin-top: -35px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+.video-6 p {
+    margin-left: 60px;
+    margin-top: 5px;
+    font-size: x-small;
+    color: gray;
+}
+
+.video-7 {
+    height: 200px;
+    display: grid;
+    margin-top: 1px;
+}
+
+.video-7 h4 {
+    margin-top: -35px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+.video-7 p {
+    margin-left: 60px;
+    margin-top: 5px;
+    font-size: x-small;
+    color: gray;
+}
+
+.video-8 {
+    height: 200px;
+    display: grid;
+    margin-top: 30px;
+}
+
+.video-8 h4 {
+    margin-top: -35px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+.video-8 p {
+    margin-left: 60px;
+    margin-top: 5px;
+    font-size: x-small;
+    color: gray;
+}
+
+.video-9 {
+    height: 200px;
+    display: grid;
+    margin-top: 30px;
+}
+
+.video-9 h4 {
+    margin-top: -35px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    font-size: small;
+    word-break: break-all;
+}
+
+.video-9 p {
+    margin-left: 60px;
+    margin-top: 5px;
+    font-size: x-small;
+    color: gray;
+}
+
+.video-10 {
+    height: 200px;
+    display: grid;
+    margin-top: 1px;
+}
+
+.video-10 h4 {
+    margin-top: -35px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+.video-10 p {
+    margin-left: 60px;
+    margin-top: 5px;
+    font-size: x-small;
+    color: gray;
+}
+
+.video-11 {
+    height: 200px;
+    display: grid;
+    margin-top: 30px;
+}
+
+.video-11 h4 {
+    margin-top: -35px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+.video-11 p {
+    margin-left: 60px;
+    margin-top: 5px;
+    font-size: x-small;
+    color: gray;
+}
+
+.video-12 {
+    height: 200px;
+    display: grid;
+    margin-top: 30px;
+}
+
+.video-12 h4 {
+    margin-top: -35px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+.video-12 p {
+    margin-left: 60px;
+    margin-top: 5px;
+    font-size: x-small;
+    color: gray;
+}
